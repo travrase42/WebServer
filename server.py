@@ -1,16 +1,14 @@
 import web
-
+render = web.template.render('templates/')
 
 
 urls = (
-'/', 'index'
+	'/', 'index'
 )
-
 class index: 
 	def GET(self):
-		return "Wow, such web!"
+		return render.index();
 #main method 
 if __name__ == '__main__':
 	app = web.application(urls, globals())
 	app.run()
-
