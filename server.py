@@ -3,12 +3,18 @@ render = web.template.render('templates/')
 
 
 urls = (
-	'/', 'index'
+	'/rainbowTrout', 'index', '/brownTrout', 'brownTrout'
 )
-class index: 
+class index:
 	def GET(self):
 		return render.index();
-#main method 
+
+class brownTrout:
+	def GET(self):
+		return render.brownTrout();
+
+
+#main method
 if __name__ == '__main__':
 	app = web.application(urls, globals())
 	app.run()
