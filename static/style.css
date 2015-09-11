@@ -1,8 +1,21 @@
 #title{
-	font-size: 400;
+	font-size: 40px;
 	font-family: fantasy;
+
 }
+a{
+	position: relative;
+	top:200px;
+	font-size:40px;
+	left:5px;
+	top:1px;
+
+}
+
 #body{
-	font-size: 200;
+	position: relative;
+	font-size: 35px;
 	color: red;
+	left:150px;
+	top:35px;
 }
