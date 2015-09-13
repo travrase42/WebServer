@@ -1,12 +1,12 @@
 #title{
-	font-size: 40px;
+	font-size: 50px;
 	font-family: fantasy;
 
 }
 a{
-	position: relative;
-	top:200px;
-	font-size:40px;
+	position: fixed;
+	top:300px;
+	font-size:30px;
 	left:5px;
 	top:1px;
 
