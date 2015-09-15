@@ -1,9 +1,10 @@
 import web
-render = web.template.render('templates/')
+render = web.template.render('templates/', base = 'base')
 
 
 urls = (
-	'/rainbowTrout', 'index', '/brownTrout', 'brownTrout'
+	'/rainbowTrout', 'index',
+	'/brownTrout', 'brownTrout'
 )
 class index:
 	def GET(self):
